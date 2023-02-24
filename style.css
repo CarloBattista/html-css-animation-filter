@@ -182,7 +182,7 @@
 }
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: transformLineTop 2s linear;
+    animation: transformLineTop 1s linear;
 }
 @keyframes transformLineTop {
     0% {
@@ -206,7 +206,7 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: transformLineBottom 2s linear;
+    animation: transformLineBottom 1s linear;
 }
 @keyframes transformLineBottom {
     0% {
@@ -217,5 +217,21 @@
     }
     100% {
         right: 20%;
+    }
+}
+
+/* Esercizio 13 */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: transformTotalTop 1s linear;
+}
+@keyframes transformTotalTop {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 10px);
+        top: -10px;
     }
 }
