@@ -140,6 +140,24 @@
     font-size: 60px;
 }
 
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: rotate 1s linear;
+}
+
+/* Esercizio 12 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
