@@ -122,7 +122,19 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: loopRotate 1s infinite;
 }
+
+@keyframes loopRotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Esercizio 11 */
 
 .ex-11-icon {
     font-size: 60px;
